@@ -208,8 +208,12 @@ footer img{
     }
 
     .hero-banner-text{
-        padding: 300px;
+        padding: 270px;
         font-size: 28px;
+    }
+
+    .hero-banner-text-p{
+        padding: 10px 50px;
     }
 
     /*Secondhand*/
@@ -305,6 +309,27 @@ footer img{
 
     footer img{
         width: 40%;
+    }
+
+    /*Ekstra opgaver*/
+    .ny-side{
+        display: flex;
+    }
+
+    .ny-side img{
+        height: 100%;
+    }
+
+    .ny-side2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: start;
+        background-color: white;
+    }
+
+    .size{
+        padding-right: 80px;
     }
 
 }
