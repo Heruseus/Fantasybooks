@@ -27,11 +27,13 @@ h2{
 }
 
 h3{
+    margin: 0;
     font-size: 30px;
     text-align: center;
 }
 
 h4{
+    margin: 0;
     text-align: center;
 }
 
@@ -42,13 +44,14 @@ a{
     color: #553120;
 }
 
-p{
-    font-weight: bold;
-}
-
 ul{
     padding: 0;
     list-style-type: none;
+}
+
+.arrow{
+    margin-bottom: -12px;
+    width: 40px;
 }
 
 /*button styling*/
@@ -144,6 +147,10 @@ ul{
     color: #707070;
 }
 
+.forfatter-type-p{
+    font-weight: bold;
+}
+
 .bestil img{
     height: 330px;
     width: 320px;
@@ -162,13 +169,13 @@ ul{
     text-align: center;
 }
 
-.icons{
-    text-align: center;
+.footer-text p{
+    color: #553120;
 }
 
 .icon{
     width: 50px;
-    fill: orange;
+    fill: coral;
 }
 
 footer img{
@@ -233,7 +240,7 @@ footer img{
         text-align: start;
         justify-content: space-between;
         width: 350px;
-        padding: 40px 150px;
+        padding: 40px 90px;
     }
 
     .månedens-bog a{
@@ -261,28 +268,39 @@ footer img{
         height: 100%;
     }
 
-    
-
     /*Tilmeld*/
     .tilmeld{
         height: 500px;
         background-size: cover;
     }
+
     /*Footer*/
+    h4{
+        text-align: start;
+    }
+
     footer{
         display: flex;
-        margin-top: 130px;
+        margin-top: 120px;
     }
 
     .footer-box{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        height: 100%;
+        background-color: #ffffff;
     }
 
     .footer-text{
+        text-align: start;
         width: 100%;
-        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .icons{
+        margin-top: 95px;
     }
 
     footer img{
